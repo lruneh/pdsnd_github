@@ -18,3 +18,6 @@ washington.csv
 Thanks to mentor Ronak M for help along the way!
 Documentation on https://pandas.pydata.org/ was used for work on date filtering.
 
+### Personal note
+Working with git and Github is supprisingly fun and interesting!
+
