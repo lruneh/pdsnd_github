@@ -5,6 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+#create two global variables for later use
 global raw_start
 global raw_stop
 
@@ -18,7 +19,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
   
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data together!\n\n')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Please input the city, you would like to analyze data for.\n You can choose between "Chicago", "New York City" and "Washington"')
     while not city.title() in ('Chicago', 'New York City', 'Washington'):
