@@ -176,6 +176,7 @@ def user_stats(df):
     print('Done.')
 
 def raw_data(df):
+    """Displays five lines of raw data on user's request. When user answers no, the function will break"""
     raw_start = 0
     raw_stop = 5
     print(df[raw_start:raw_stop])
