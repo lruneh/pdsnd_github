@@ -82,6 +82,7 @@ def time_stats(df):
         # TO DO: display the most common month
         print('Most common month:', df['month'].mode()[0])
     else:
+        #A specific month was chosen, so only this month can be part of the results
         print('You chose to only view this month: ', month)
 
     #Only find most popular day, if no day filter was applied
@@ -90,6 +91,7 @@ def time_stats(df):
         df['day'] = df['Start Time'].dt.dayofweek
         print('Most common day of week:', df['day'].mode()[0]+1)
     else:
+        #A specific day of the week was chosen, so only this weekday can be part of the results
         print('You chose to only view this day of the week: ', day)
 
     # TO DO: display the most common start hour
